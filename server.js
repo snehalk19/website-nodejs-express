@@ -33,7 +33,7 @@ app.use(bodyParser.json());
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './views'));
 
-app.locals.siteName = 'ROUX Meetups';
+app.locals.siteName = 'Meetups';
 
 app.use(express.static(path.join(__dirname, './static')));
 
