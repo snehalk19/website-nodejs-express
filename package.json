@@ -10,8 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-session": "^2.1.0",
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "http-errors": "^2.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.0.2",
